@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(#cac2d1, #bcc7dc);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+#head {
+  text-align: left;
+  padding-top: 300px;
+  padding-right: 150px;
+  padding-left: 30px;
+}
+
+#heading {
+  font-size: 70px;
+  color: rgb(209, 238, 231);
+  opacity: 0.6;
+}
+#heading-para {
+  font-size: 25px;
+  font-weight: 600;
+  opacity: 0.8;
+  color: #a5d6d6;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1100px;
+  height: 1050px;
+  margin: 60px auto;
+}
+
+.column {
+  width: 50%;
+  height: 100%;
+}
+
+.imag {
+  background: url("/green.png") no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;  
+}
+
+#c2 {
+  background-color: rgb(20, 66, 51);
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  /* rgb(20, 66, 51); */
+}
+
+.form-container {
+  padding: 60px;
+}
+
+label{
+  display: block;
+  color: rgb(231, 199, 204);
+  margin-bottom: 10px;
+  /* rgb(200, 241, 228) */
+}
+
+input,
+select,
+textarea{
+  outline: none;
+  margin: 0px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  background: transparent;
+  border-bottom: 1px solid #739a90;
+  opacity: 0.4;
+  padding: 5px;
+  font-size: 16px;
+  caret-color: #d5e7e2;
+  color: #d5e7e2;
+  margin-bottom: 30px;
+}
+
+input[placeholder],
+select,
+input,
+textarea[placeholder]{
+  font-family: monospace;
+  letter-spacing: 3px;
+}
+
+/* #739A90 */
+/* #c7e4dc */
+
+.f-l-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.input-grp {
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2px;
+  opacity: 0.8;
+  filter: invert(1);
+}
+
+select {
+  outline: 0;
+  cursor: pointer;
+  appearance: none;
+}
+
+option {
+  color: teal;
+  background-color: #d5e7e2;
+}
+
+#angle-down {
+  position: absolute;
+  right: 11px;
+  color: rgb(253, 253, 253);
+  opacity: 0.4;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+
+
+textarea {
+  border: 1px solid #739a90;
+  border-radius: 10px;
+}
+
+#sub-btn {
+  text-align: center;
+}
+
+#res,
+#sub {
+  width: 30%;
+  margin: 10px;
+  background-color: rgb(231, 199, 204);
+  color: rgb(20, 66, 51);
+  border: none;
+}
+
+.btn {
+  display: inline-block;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #739a90;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
